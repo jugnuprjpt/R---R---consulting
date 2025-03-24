@@ -93,11 +93,11 @@ export default function Footer() {
             {/* <p className="text-gray-600 flex items-center justify-center">
               <FaMapMarkerAlt className="mr-2" /> M5T 2L9 Toronto, Canada
             </p> */}
-            <div className="flex space-x-4 mt-4">
+            {/* <div className="flex space-x-4 mt-4">
               <FaFacebook className="text-gray-600 hover:text-[#AB8A62] cursor-pointer" />
               <FaLinkedin className="text-gray-600 hover:text-[#AB8A62] cursor-pointer" />
               <FaTwitter className="text-gray-600 hover:text-[#AB8A62] cursor-pointer" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
