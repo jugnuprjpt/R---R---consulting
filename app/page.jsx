@@ -104,11 +104,11 @@ export default function Home() {
                   className="mx-auto mb-4"
                 />
                 <h3 className="text-2xl font-serif text-gray-900">
-                  Franchise Agreements
+                  Tax Estimation
                 </h3>
                 <p className="mt-3 text-gray-600 text-lg">
-                  Navigate complex franchise negotiations with major hotel
-                  brands to optimize terms and minimize obligations.
+                  Professional assessment of property tax obligations and
+                  strategies for potential savings and optimizations.
                 </p>
               </motion.div>
 
@@ -127,11 +127,11 @@ export default function Home() {
                   className="mx-auto mb-4"
                 />
                 <h3 className="text-2xl font-serif text-gray-900">
-                  Renovation Management
+                  Rate Management
                 </h3>
                 <p className="mt-3 text-gray-600 text-lg">
-                  Comprehensive planning and oversight for property improvements
-                  to maximize value and guest satisfaction.
+                  Data-driven strategies to optimize room pricing for maximum
+                  revenue and competitive positioning.
                 </p>
               </motion.div>
             </div>
