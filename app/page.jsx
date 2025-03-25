@@ -35,11 +35,11 @@ export default function Home() {
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-[#AB8A62] text-lg font-medium uppercase tracking-widest font-serif flex items-center justify-center gap-2">
               <span className="border-t border-[#AB8A62] w-8"></span>
-              Facilities
+              Our Expertise
               <span className="border-t border-[#AB8A62] w-8"></span>
             </h2>
-            <h1 className="text-5xl text-gray-900 mt-2 font-serif">
-              Hotel Facilities
+            <h1 className="text-3xl text-gray-900 mt-4 font-serif">
+              Comprehensive Hotel Consulting Services
             </h1>
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               <motion.div
@@ -51,17 +51,18 @@ export default function Home() {
               >
                 <Image
                   src="/asset/bed.svg"
-                  alt="Rooms and Suites"
+                  alt="Property Acquisition"
                   width={60}
                   height={60}
                   className="mx-auto mb-4"
                 />
                 <h3 className="text-2xl font-serif text-gray-900">
-                  Rooms and Suites
+                  Property Acquisition
                 </h3>
                 <p className="mt-3 text-gray-600 text-lg">
-                  Varied types of rooms, from standard to luxury suites,
-                  equipped with essentials.
+                  Expert guidance in finding and evaluating potential hotel
+                  properties for investment based on market analysis and ROI
+                  projections..
                 </p>
               </motion.div>
 
@@ -74,17 +75,17 @@ export default function Home() {
               >
                 <Image
                   src="/asset/security.svg"
-                  alt="24-Hour Security"
+                  alt="Loan Negotiations"
                   width={60}
                   height={60}
                   className="mx-auto mb-4"
                 />
                 <h3 className="text-2xl font-serif text-gray-900">
-                  24-Hour Security
+                  Loan Negotiations
                 </h3>
                 <p className="mt-3 text-gray-600 text-lg">
-                  On-site security personnel and best surveillance, ensuring
-                  safety for valuables.
+                  Secure favorable financing terms through our extensive network
+                  of lenders and expertise in hotel industry financing..
                 </p>
               </motion.div>
 
@@ -97,17 +98,17 @@ export default function Home() {
               >
                 <Image
                   src="/asset/gym.svg"
-                  alt="Fitness Center"
+                  alt="Franchise Agreements"
                   width={60}
                   height={60}
                   className="mx-auto mb-4"
                 />
                 <h3 className="text-2xl font-serif text-gray-900">
-                  Fitness Center
+                  Franchise Agreements
                 </h3>
                 <p className="mt-3 text-gray-600 text-lg">
-                  Equipped with exercise machines, offering massages, facials,
-                  and treatments.
+                  Navigate complex franchise negotiations with major hotel
+                  brands to optimize terms and minimize obligations.
                 </p>
               </motion.div>
 
@@ -120,17 +121,17 @@ export default function Home() {
               >
                 <Image
                   src="/asset/swimming-pool.svg"
-                  alt="Swimming Pool"
+                  alt="Renovation Management"
                   width={60}
                   height={60}
                   className="mx-auto mb-4"
                 />
                 <h3 className="text-2xl font-serif text-gray-900">
-                  Swimming Pool
+                  Renovation Management
                 </h3>
                 <p className="mt-3 text-gray-600 text-lg">
-                  Indoor or outdoor pools for leisure or exercise, with
-                  additional spa services.
+                  Comprehensive planning and oversight for property improvements
+                  to maximize value and guest satisfaction.
                 </p>
               </motion.div>
             </div>

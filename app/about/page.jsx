@@ -112,8 +112,8 @@ export default function About() {
                   vision becomes ours, and together, we turn challenges into
                   opportunities. With a global perspective and a local touch, we
                   tailor our approach to fit your unique needs, delivering
-                  results that matter. At [Company Name], your success is our
-                  legacy. Let’s create something extraordinary—together."
+                  results that matter. At R & R Hotel Consultants, your success
+                  is our legacy. Let’s create something extraordinary—together."
                 </p>
                 {/* <button className="mt-6 bg-[#9B855A] text-white py-2 px-6 rounded-full shadow-lg hover:bg-[#7a6b4a]">
               Learn More

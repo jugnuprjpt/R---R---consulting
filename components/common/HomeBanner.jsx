@@ -11,7 +11,11 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <div id="hero-carousel" className="relative w-full h-screen overflow-hidden" data-carousel="slide">
+    <div
+      id="hero-carousel"
+      className="relative w-full h-screen overflow-hidden"
+      data-carousel="slide"
+    >
       {/* Slides */}
       <div className="relative w-full h-full">
         <div className="absolute inset-0 w-full h-full" data-carousel-item>
@@ -24,12 +28,16 @@ export default function HeroSlider() {
           />
           {/* Content Fixed */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-6 bg-black bg-opacity-50">
-            <p className="text-lg md:text-xl tracking-widest mb-4">✦ Welcome to our spa ✦</p>
+            <p className="text-lg md:text-xl tracking-widest mb-4">
+              ✦ Welcome to our Premier Hotel Consulting Services ✦
+            </p>
             <h1 className="text-4xl md:text-6xl font-serif font-bold leading-tight">
-              Luxury Stay Hotel Experience <br /> Comfort & Elegance
+              Elevate <br /> our Hotel Investment Strategy
             </h1>
             <p className="text-lg md:text-xl mt-4 max-w-2xl">
-              Choosing Bokinn was one of the best decisions we've ever made. They have proven to be a reliable and innovative partner.
+              Expert guidance in hotel property acquisition, financing,
+              franchise terms, renovations, and operational strategy to maximize
+              your ROI.
             </p>
             {/* <button className="mt-6 px-6 py-3 bg-[#AB8A62] text-white font-semibold rounded-lg shadow-md  transition">
               Discover Room
@@ -37,7 +45,10 @@ export default function HeroSlider() {
           </div>
         </div>
 
-        <div className="absolute inset-0 w-full h-full hidden" data-carousel-item>
+        <div
+          className="absolute inset-0 w-full h-full hidden"
+          data-carousel-item
+        >
           <Image
             src="/asset/slide2.jpg"
             className="w-full h-full object-cover"
@@ -47,12 +58,16 @@ export default function HeroSlider() {
           />
           {/* Content Fixed */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-6 bg-black bg-opacity-50">
-            <p className="text-lg md:text-xl tracking-widest mb-4">✦ Enjoy Our Luxury ✦</p>
+            <p className="text-lg md:text-xl tracking-widest mb-4">
+              ✦ Welcome to our Premier Hotel Consulting Services ✦
+            </p>
             <h1 className="text-4xl md:text-6xl font-serif font-bold leading-tight">
-              A Unique Experience <br /> Like Never Before
+              Elevate <br /> our Hotel Investment Strategy
             </h1>
             <p className="text-lg md:text-xl mt-4 max-w-2xl">
-              Experience top-tier hospitality with our finest services and exclusive deals.
+              Expert guidance in hotel property acquisition, financing,
+              franchise terms, renovations, and operational strategy to maximize
+              your ROI.
             </p>
             {/* <button className="mt-6 px-6 py-3 bg-[#AB8A62] text-white font-semibold rounded-lg shadow-md transition">
               Explore Now
@@ -62,10 +77,18 @@ export default function HeroSlider() {
       </div>
 
       {/* Navigation Buttons */}
-      <button type="button" className="absolute top-1/2 left-4 z-30 px-4 py-2 text-white bg-black bg-opacity-50 rounded-full" data-carousel-prev>
+      <button
+        type="button"
+        className="absolute top-1/2 left-4 z-30 px-4 py-2 text-white bg-black bg-opacity-50 rounded-full"
+        data-carousel-prev
+      >
         ❮
       </button>
-      <button type="button" className="absolute top-1/2 right-4 z-30 px-4 py-2 text-white bg-black bg-opacity-50 rounded-full" data-carousel-next>
+      <button
+        type="button"
+        className="absolute top-1/2 right-4 z-30 px-4 py-2 text-white bg-black bg-opacity-50 rounded-full"
+        data-carousel-next
+      >
         ❯
       </button>
     </div>
