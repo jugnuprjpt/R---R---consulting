@@ -37,7 +37,7 @@ export default function Footer() {
         </div> */}
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left pb-10 w-full justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center sm:text-left pb-10 w-full justify-center">
           {/* Logo Section */}
           <div className="flex flex-col items-center lg:items-center">
             <Image
@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
 
           {/* Guest Services */}
-          <div className="flex flex-col items-center lg:items-center">
+          {/* <div className="flex flex-col items-center lg:items-center">
             <h4 className="text-lg font-semibold text-gray-900">
               Guest Service
             </h4>
@@ -74,7 +74,7 @@ export default function Footer() {
               <li>Free Wi-Fi</li>
               <li>Concierge Service</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Section */}
           <div className="flex flex-col items-center lg:items-center">
