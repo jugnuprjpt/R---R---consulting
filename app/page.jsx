@@ -138,14 +138,14 @@ export default function Home() {
           </div>
         </section>
         <section className="py-10">
-          <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
+          <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
             {/* Left Side - Image Box (40%) */}
             <motion.div
-              initial={{ x: -100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.6 }}
               viewport={{ once: true }}
-              className="w-full md:w-[40%] flex justify-center"
+              className="w-full md:w-[35%] flex justify-center"
             >
               <div
                 className="relative rounded-full shadow-lg overflow-hidden transform transition-transform duration-500 
@@ -164,11 +164,11 @@ export default function Home() {
 
             {/* Right Side - Content (60%) */}
             <motion.div
-              initial={{ x: 100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.6 }}
               viewport={{ once: true }}
-              className="w-full md:w-[60%] text-center md:text-left mt-10 md:mt-0 px-6"
+              className="w-full md:w-[65%] text-center md:text-left mt-10 md:mt-0 px-3 lg:px-5"
             >
               <h2 className="text-[#AB8A62] text-lg font-medium uppercase tracking-widest font-serif flex items-center justify-center md:justify-start gap-2">
                 <span className="border-t border-[#AB8A62] w-8"></span>R & R
@@ -246,7 +246,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-16 bg-gray-100 text-center">
+        {/* <section className="py-16 bg-gray-100 text-center">
           <div className="container mx-auto px-6">
             <motion.h2
               initial={{ y: 100, opacity: 0 }}
@@ -267,10 +267,10 @@ export default function Home() {
               className="text-5xl text-gray-900 mt-2 font-serif"
             >
               Instagram Post
-            </motion.h3>
+            </motion.h3> */}
 
-            <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              {/* Static Images */}
+        {/* <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+              
               <motion.div
                 initial={{ y: 100, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
@@ -365,9 +365,9 @@ export default function Home() {
                   <p className="text-white">View Post</p>
                 </div>
               </motion.div>
-            </div>
-          </div>
-        </section>
+            </div> */}
+        {/* </div> */}
+        {/* </section> */}
 
         <Footer />
       </main>

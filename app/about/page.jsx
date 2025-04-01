@@ -152,7 +152,7 @@ export default function About() {
                 <h3 className="mt-4 text-lg font-semibold text-gray-900">
                   Ramesh patel
                 </h3>
-                <p className="mt-2 text-gray-600">CEO </p>
+                <p className="mt-2 text-gray-600">Partner </p>
               </motion.div>
 
               {/* Team Member 2 */}
@@ -165,7 +165,7 @@ export default function About() {
                   delay: 0.4,
                 }}
                 viewport={{ once: true }}
-                className="bg-white lg:w-1/3 md:w-1/2 w-11/12 p-6 rounded-lg shadow-md transition-transform duration-500 hover:scale-105 mx-5"
+                className="bg-white lg:w-1/3 md:w-1/2 w-11/12 p-6 rounded-lg shadow-md transition-transform duration-500 hover:scale-105 mx-5 "
               >
                 <Image
                   src="/asset/user3.jpg"

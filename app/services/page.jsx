@@ -76,7 +76,7 @@ export default function VendorDirectory() {
               viewport={{ once: true }}
               className="flex flex-col md:flex-row items-center bg-gray-100 py-6 px-4 sm:px-6 md:px-10 lg:px-12 rounded-2xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#AB8A62] hover:text-white"
             >
-              <div className="w-12 h-12 sm:w-14 sm:h-14 px-3 flex items-center justify-center bg-[#AB8A62] text-white text-lg sm:text-2xl font-bold rounded-full transition-all duration-300 group-hover:scale-110">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 px-4 flex items-center justify-center bg-[#AB8A62] text-white text-lg sm:text-2xl font-bold rounded-full transition-all duration-300 group-hover:scale-110">
                 01
               </div>
               <div className="md:ml-6 mt-4 md:mt-0">
@@ -98,7 +98,7 @@ export default function VendorDirectory() {
               viewport={{ once: true }}
               className="flex flex-col md:flex-row-reverse items-center bg-gray-50 py-6 px-4 sm:px-6 md:px-10 lg:px-12 rounded-2xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#AB8A62] hover:text-white"
             >
-              <div className="w-12 h-12 sm:w-14 sm:h-14 px-3 flex items-center justify-center bg-[#AB8A62] text-white text-lg sm:text-2xl font-bold rounded-full transition-all duration-300 group-hover:scale-110">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 px-4 flex items-center justify-center bg-[#AB8A62] text-white text-lg sm:text-2xl font-bold rounded-full transition-all duration-300 group-hover:scale-110">
                 02
               </div>
               <div className="md:mr-6 mt-4 md:mt-0">
@@ -120,7 +120,7 @@ export default function VendorDirectory() {
               viewport={{ once: true }}
               className="flex flex-col md:flex-row items-center bg-gray-100 py-6 px-4 sm:px-6 md:px-10 lg:px-12 rounded-2xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#AB8A62] hover:text-white"
             >
-              <div className="w-12 h-12 sm:w-14 sm:h-14  flex items-center justify-center bg-[#AB8A62] text-white text-lg sm:text-2xl font-bold rounded-full transition-all duration-300 group-hover:scale-110">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 px-4 flex items-center justify-center bg-[#AB8A62] text-white text-lg sm:text-2xl font-bold rounded-full transition-all duration-300 group-hover:scale-110">
                 03
               </div>
               <div className="md:ml-6 mt-4 md:mt-0">
